@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{d3740790-b051-4d42-98af-a4f8c3d4061b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{d6804b4f-598a-4f82-bd98-61422e3b65ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Voxel">
+      <UniqueIdentifier>{e8379dba-d796-40a1-9b97-ffa1f5559ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ProjectElevation">
+      <UniqueIdentifier>{d48528d5-3510-4e7e-b806-64e73ea3d832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ElevationDifference">
+      <UniqueIdentifier>{da8236e8-5720-4685-91ce-3cb608b39e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\DoN">
+      <UniqueIdentifier>{ae25677a-a079-49bf-9193-31704458a715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ColorEntropy">
+      <UniqueIdentifier>{e573217e-d22b-4c05-9365-1a12bfb6ffa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Covariance">
+      <UniqueIdentifier>{deaaf490-2ab5-4043-aa6f-5d5810072c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ZDirectionDensity">
+      <UniqueIdentifier>{b8567e93-296b-48f9-aa64-b26f77029191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Roof">
+      <UniqueIdentifier>{798521b7-373d-4ca6-a454-16dacd468302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\SizeOfElevationDifferenceCluster">
+      <UniqueIdentifier>{8521ad06-73ec-4c91-aa57-673f4b46bbfe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FeatureBasedEigenvalue.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalDensity.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="RelativeElevation.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="LCCP.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="Supervoxel.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="LAB.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="SemanticCategory.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="PFH.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectionElevation.h">
+      <Filter>Features\ProjectElevation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectMap.h">
+      <Filter>Features\ProjectElevation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectMapGenerator.h">
+      <Filter>Features\ProjectElevation</Filter>
+    </ClInclude>
+    <ClInclude Include="ElevationDifference.h">
+      <Filter>Features\ElevationDifference</Filter>
+    </ClInclude>
+    <ClInclude Include="DoN.h">
+      <Filter>Features\DoN</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorEntropy.h">
+      <Filter>Features\ColorEntropy</Filter>
+    </ClInclude>
+    <ClInclude Include="Covariance.h">
+      <Filter>Features\Covariance</Filter>
+    </ClInclude>
+    <ClInclude Include="ZDirectionDensity.h">
+      <Filter>Features\ZDirectionDensity</Filter>
+    </ClInclude>
+    <ClInclude Include="Roof.h">
+      <Filter>Features\Roof</Filter>
+    </ClInclude>
+    <ClInclude Include="SizeOfElevationDifferenceCluster.h">
+      <Filter>Features\SizeOfElevationDifferenceCluster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FeatureBasedEigenvalue.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalDensity.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="RelativeElevation.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="LCCP.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="Supervoxel.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="Direction.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="LAB.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="SemanticCategory.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="PFH.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectionElevation.cpp">
+      <Filter>Features\ProjectElevation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectMap.cpp">
+      <Filter>Features\ProjectElevation</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectMapGenerator.cpp">
+      <Filter>Features\ProjectElevation</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevationDifference.cpp">
+      <Filter>Features\ElevationDifference</Filter>
+    </ClCompile>
+    <ClCompile Include="DoN.cpp">
+      <Filter>Features\DoN</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorEntropy.cpp">
+      <Filter>Features\ColorEntropy</Filter>
+    </ClCompile>
+    <ClCompile Include="Covariance.cpp">
+      <Filter>Features\Covariance</Filter>
+    </ClCompile>
+    <ClCompile Include="ZDirectionDensity.cpp">
+      <Filter>Features\ZDirectionDensity</Filter>
+    </ClCompile>
+    <ClCompile Include="Roof.cpp">
+      <Filter>Features\Roof</Filter>
+    </ClCompile>
+    <ClCompile Include="SizeOfElevationDifferenceCluster.cpp">
+      <Filter>Features\SizeOfElevationDifferenceCluster</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

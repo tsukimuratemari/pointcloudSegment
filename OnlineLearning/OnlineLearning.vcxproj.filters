@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="linear_larank">
+      <UniqueIdentifier>{ee801cab-1d5e-4b4e-bcc6-94325f121c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="conf">
+      <UniqueIdentifier>{7fc67435-2283-447f-a948-6df035d5d021}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="booster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="classifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="experimenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hyperparameters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_larank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OMCBoost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="online_mcboost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="online_mclpboost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="online_rf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_larank\vectors.cpp">
+      <Filter>linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="systime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_larank\LaRank.cpp">
+      <Filter>linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_larank\LaRankLearn.cpp">
+      <Filter>linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_larank\LaRankClassify.cpp">
+      <Filter>linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="booster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="classifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="experimenter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hyperparameters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_larank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="online_mcboost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="online_mclpboost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="online_rf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_larank\vectors.h">
+      <Filter>linear_larank</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_larank\wrapper.h">
+      <Filter>linear_larank</Filter>
+    </ClInclude>
+    <ClInclude Include="systime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_larank\LaRank.h">
+      <Filter>linear_larank</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="conf\omcb.conf">
+      <Filter>conf</Filter>
+    </None>
+  </ItemGroup>
+</Project>

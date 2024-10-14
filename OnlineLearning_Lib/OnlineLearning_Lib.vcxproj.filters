@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="conf">
+      <UniqueIdentifier>{25912c56-a675-48c4-8e18-5e78e2edac5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="linear_larank">
+      <UniqueIdentifier>{9d8c7756-72dd-4209-9771-533786c95104}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\OnlineLearning\conf\omcb.conf">
+      <Filter>conf</Filter>
+    </None>
+    <None Include="..\OnlineLearning\packages.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\OnlineLearning\linear_larank\LaRank.cpp">
+      <Filter>linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\linear_larank\LaRankClassify.cpp">
+      <Filter>linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\linear_larank\vectors.cpp">
+      <Filter>linear_larank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\booster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\classifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\experimenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\hyperparameters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\linear_larank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\OMCBoost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\online_mcboost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\online_mclpboost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\online_rf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\systime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\utilities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OnlineLearning\Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\OnlineLearning\linear_larank\LaRank.h">
+      <Filter>linear_larank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\linear_larank\vectors.h">
+      <Filter>linear_larank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\linear_larank\wrapper.h">
+      <Filter>linear_larank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\booster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\classifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\experimenter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\hyperparameters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\linear_larank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\online_mcboost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\online_mclpboost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\online_rf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\systime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\utilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OnlineLearning\Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

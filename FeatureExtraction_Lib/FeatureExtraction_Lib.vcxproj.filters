@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\FeatureExtraction\Common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\LCCP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\RelativeElevation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\Direction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\FeatureBasedEigenvalue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\LAB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\LocalDensity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\SemanticCategory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\Supervoxel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\ProjectionElevation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\ProjectMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\ProjectMapGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\ColorEntropy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\DoN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\ElevationDifference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\ZDirectionDensity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\Covariance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FeatureExtraction\SizeOfElevationDifferenceCluster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\FeatureExtraction\Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\LCCP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\RelativeElevation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\Direction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\FeatureBasedEigenvalue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\LAB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\LocalDensity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\SemanticCategory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\Supervoxel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\ProjectionElevation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\ProjectMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\ProjectMapGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\ColorEntropy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\DoN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\ElevationDifference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\ZDirectionDensity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\Covariance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FeatureExtraction\SizeOfElevationDifferenceCluster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

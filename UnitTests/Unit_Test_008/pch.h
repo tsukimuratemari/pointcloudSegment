@@ -1,0 +1,33 @@
+//
+// pch.h
+//
+
+#pragma once
+
+#include "gtest/gtest.h"
+#include <pcl/console/parse.h>
+#include <pcl/point_cloud.h>
+#include <pcl/point_types.h>
+#include <pcl/io/pcd_io.h>
+#include <pcl/io/ply_io.h>
+#include <pcl/segmentation/supervoxel_clustering.h>
+#include <pcl/kdtree/kdtree_flann.h>
+#include <pcl/features/normal_3d.h>
+#include <pcl/features/pfh.h>
+#include <pcl/features/fpfh.h>
+#include <iostream>
+#include <string>
+#include <random>
+#include <optional>
+#include <iomanip>
+#include <filesystem>
+
+#include "common/Product.h"
+#include "common/Singleton.h"
+#include "common/CommonMicro.h"
+#include "common/CommonInterface.h"
+#include "common/EventLoggerInterface.h"
+#include "common/DesignPatternInterface.h"
+#include "common/HiveConfig.h"
+#include "common/ConfigInterface.h"
+#include "common/UtilityInterface.h"

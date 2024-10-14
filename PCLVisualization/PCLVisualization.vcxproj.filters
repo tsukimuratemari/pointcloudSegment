@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\pcl\visualization\area_picking_event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\boost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\cloud_viewer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\eigen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\histogram_visualizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\image_viewer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\interactor_style.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\keyboard_event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\mouse_event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\pcl_painter2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\pcl_plotter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\pcl_visualizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\point_cloud_color_handlers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\point_cloud_geometry_handlers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\point_cloud_handlers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\point_picking_event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\range_image_visualizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\registration_visualizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\simple_buffer_visualizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\vtk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\vtk\pcl_context_item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\vtk\pcl_image_canvas_source_2d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\vtk\vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\vtk\vtkRenderWindowInteractorFix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\impl\histogram_visualizer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\impl\image_viewer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\impl\pcl_plotter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\impl\pcl_visualizer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\impl\point_cloud_color_handlers.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\impl\point_cloud_geometry_handlers.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\impl\point_cloud_handlers.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\impl\registration_visualizer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\common\actor_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\common\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\common\float_image_utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\common\io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\common\ren_win_interact_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\common\shapes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\common\impl\common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcl\visualization\common\impl\shapes.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cloud_viewer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\histogram_visualizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image_viewer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interactor_style.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcl_painter2D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcl_plotter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcl_visualizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\point_cloud_handlers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\point_picking_event.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\range_image_visualizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vtk\pcl_context_item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vtk\pcl_image_canvas_source_2d.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vtk\vtkRenderWindowInteractorFix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\float_image_utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\io.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\ren_win_interact_map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\shapes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
